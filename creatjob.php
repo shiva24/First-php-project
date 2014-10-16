@@ -1,3 +1,11 @@
+<?php
+	include 'JobDB.php';
+
+	session_start();
+	if (isset($_SESSION['name'])) {
+		echo <a href=
+	}
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,7 +30,7 @@
 					<label for="website">website</label>
 					<input type="text" name="website" id="website" placeholder="www.yourdomenname.com" />
 					<label>Description</label>
-					<textarea type="text" name"Decription" placeholder="Descrieption" /></textarea>
+					<textarea type="text" name"Description" placeholder="Descrieption" /></textarea>
 					<input type="button" name="submit" id="submit" value="Submit">
 		 	 </form>
 		</div>

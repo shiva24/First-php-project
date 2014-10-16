@@ -58,7 +58,7 @@
 					</ul>
 				</section>
 <?php
- }
+ };
 ?>
 	</body>
 </html>
@@ -67,10 +67,10 @@
 <style>
 div{
 	height: 50px;
-	width: 101%;
-	border:1px solid red;
-	margin-top: -8px;
-	margin-left: -8px;
+	width: 101.2%;
+	border:0px solid red;
+	margin-top: -17px;
+	margin-left: -9px;
 	background: orange;
 }
 h1{
@@ -83,7 +83,7 @@ h1{
 a{
 	text-decoration: none;
 	color: black;
-	font-size: 15px;
+	font-size: 20x;
 	float: right;
 }
 
